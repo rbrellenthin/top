@@ -1,0 +1,123 @@
+.Container {
+	padding-top: 13%;
+}
+
+.Navigation li {
+	list-style-type: none;
+	overflow: hidden;
+	float: right;
+	float:right;
+	display: inline;
+	color: dimgray;
+	font-family: arial, sans-serif;
+	font-size: 13px;
+	text-align: center;
+	padding-right: 20px;
+}
+
+li a {
+    display: block;
+    text-decoration: none;
+}
+
+a:link {
+	text-decoration: none;
+	color: dimgray;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+.Name {
+	text-align: center;
+	font-size: 85px;
+	font-family: futura, sans-serif;
+	padding: 0px;
+	margin: 0px;
+	vertical-align: middle;
+}
+
+.Search {
+	text-align: center;
+	padding: 10px;
+	padding-top: 20px;
+}
+
+#g {
+	color: dodgerblue;
+	margin: 0px;
+}
+
+#o1, #e {
+	color: red;
+	margin: 0px;
+}
+
+#o2 {
+	color: gold;
+	margin: 0px;
+}
+
+#l {
+	color: green;
+	margin: 0px;
+}
+
+#textbox {
+	width: 45%;
+	height: 35px;
+}
+
+#button {
+	margin-top: 25px;
+	margin-right: 5px;
+	margin-left: 5px;
+	border: none;
+	border-radius: 2px;
+	background-color: #F0F0F0;
+	color: dimgray;
+	font-size: 12px;
+	font-weight: bold;
+	height: 40px;
+	width: 135px;
+}
+
+#button:hover {
+	border: black;
+}
+
+.Footer ul {
+	position: fixed;
+	bottom: 0px;
+	width: 100%;
+	height: 15px;
+}
+
+.Bar {
+	background-color: #F0F0F0;
+	border-color: darkgray;
+	bottom: 0;
+	padding-bottom: 43px;
+	width: 100%;
+	position: fixed;
+}
+
+.Footer li {
+	height: 43px;
+	list-style-type: none;
+	overflow: hidden;
+	display: inline;
+	font-family: arial, sans-serif;
+	font-size: 13px;
+	padding-right: 25px;
+	text-align: center;
+}
+
+#Footer1 li {
+	float: left;
+}
+
+#Footer2 li {
+	float: right;
+}
